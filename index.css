@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+
+#box{
+    width: 542px;
+    height: 542px;
+    border: 5px solid #7e81d4;
+    margin: 50px 0 0 100px;
+    float: left;
+}
+
+#midbox{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    position: relative;
+}
+#canvas{
+    display: block;
+    background-color: #F9CC9D;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 492.85714285714283px;
+    height: 492.85714285714283px;
+    margin: auto;
+}
+
+.layer>div>div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 2.5px;
+}
+.chess{
+    width: 200px;
+    height: 552px;
+    margin: 50px 0 30px 0;
+    float: left;
+    background-color: #a5a1a1;
+}
+.chess>div{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    margin: 150px auto;
+}
+.chess>div>div{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.bchess{
+    background-color: black;
+    box-shadow: 0 0 4px 3px white;
+}
+.wchess{
+    background-color: white;
+    box-shadow: 0 0 4px 3px black;
+}
+
+.small{
+    width: 25px;
+    height: 25px;
+    margin: calc((100% - 375px) / 30);
+    float: left;
+    border-radius: 50%;
+}
+
